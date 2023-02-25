@@ -9,6 +9,20 @@ const StyledPage = styled.div`
   width: 100%;
   min-height: 100vh;
   height: 100%;
+  font-family: "Nunito" !important;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h5,
+  h6,
+  div,
+  p,
+  span {
+    font-family: "Nunito" !important;
+  }
 `;
 
 export default function Home() {
