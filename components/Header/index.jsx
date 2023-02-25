@@ -11,11 +11,11 @@ import {
 import React from "react";
 import styled from "styled-components";
 import pallets from "../../assets/json/pallets.json";
+import Navbar from "./components/Navbar";
 import ShoppingCart from "./components/ShoppingCart";
 
 const HeaderStyled = styled.section`
   display: flex;
-  justify-content: space-between;
   width: 100%;
   background-color: ${pallets["dark-wheat"]};
   border-bottom: 0.125rem solid ${pallets["darker-wheat"]};
@@ -23,12 +23,21 @@ const HeaderStyled = styled.section`
   align-items: center;
   justify-content: space-between;
   padding: 0 0.9375rem;
+  position: fixed;
+  z-index: 1000;
 
   .header-logo img {
     max-width: 8.4375rem;
   }
 
+  .header-navbar {
+    display: flex;
+    width: 22.5rem;
+    padding: 0 0.9375rem;
+  }
+
   .header-carrinho {
+    margin-left: 0.9375rem;
     .avatar-carrinho {
       background-color: ${pallets["wheat"]};
       transition: all 0.2s;
@@ -45,6 +54,9 @@ const HeaderStyled = styled.section`
         }
       }
     }
+    .listagem-produtos {
+      z-index: 1000;
+    }
   }
 `;
 
@@ -57,6 +69,9 @@ export default function Header() {
           <Image src="/logo.png"></Image>
         </Link>
       </Box>
+      <Box className="header-navbar">
+        <Navbar />
+      </Box>
       <Box className="header-carrinho">
         <Menu>
           <MenuButton className="button-carrinho">
@@ -65,7 +80,7 @@ export default function Header() {
               mostrarQuantidade={quantidade > 0}
             />
           </MenuButton>
-          <MenuList>
+          <MenuList className="listagem-produtos">
             <MenuItem>Sou o Menu</MenuItem>
             <MenuDivider />
           </MenuList>
