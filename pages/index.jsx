@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import pallets from "../assets/json/pallets.json";
+import Header from "../components/Header";
 
 const StyledPage = styled.div`
   display: flex;
@@ -13,7 +14,9 @@ const StyledPage = styled.div`
 export default function Home() {
   return (
     <>
-      <StyledPage></StyledPage>
+      <StyledPage>
+        <Header />
+      </StyledPage>
     </>
   );
 }
