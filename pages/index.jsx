@@ -3,6 +3,7 @@ import styled from "styled-components";
 import pallets from "../assets/json/pallets.json";
 import Banner from "../components/Banner";
 import Header from "../components/Header";
+import SobreNos from "../components/Sobre";
 
 const StyledPage = styled.div`
   background-color: ${pallets["light-wheat"]};
@@ -31,6 +32,7 @@ export default function Home() {
       <StyledPage>
         <Header />
         <Banner />
+        <SobreNos />
       </StyledPage>
     </>
   );
