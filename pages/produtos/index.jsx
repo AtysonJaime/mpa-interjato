@@ -104,7 +104,10 @@ export default function ProdutoHome(props) {
   const [valorBusca, setValorBusca] = React.useState("");
   return (
     <ProdutosStyled>
-      <Header />
+      <Header
+        listProdutos={props.listProdutos}
+        setListProdutos={props.setListProdutos}
+      />
       <Box className="container-produtos">
         <Breadcrumb
           className="breadcrumb"
@@ -149,7 +152,9 @@ export default function ProdutoHome(props) {
               return titleNormalized.includes(searchValueNormalized);
             })
             .map((produto) => {
-              return <CardProduto key={produto.id} produto={produto} />;
+              return (
+                <CardProduto key={"produto_" + produto.id} produto={produto} />
+              );
             })}
         </SimpleGrid>
       </Box>

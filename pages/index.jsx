@@ -37,7 +37,10 @@ export default function Home(props) {
   return (
     <>
       <StyledPage>
-        <Header />
+        <Header
+          listProdutos={props.listProdutos}
+          setListProdutos={props.setListProdutos}
+        />
         <Banner />
         <SobreNos />
         <Produtos listProdutos={props.listProdutos} />
