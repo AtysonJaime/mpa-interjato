@@ -3,6 +3,7 @@ import styled from "styled-components";
 import pallets from "../assets/json/pallets.json";
 import Banner from "../components/Banner";
 import Header from "../components/Header";
+import Produtos from "../components/Produtos";
 import SobreNos from "../components/Sobre";
 
 const StyledPage = styled.div`
@@ -11,6 +12,7 @@ const StyledPage = styled.div`
   min-height: 100vh;
   height: 100%;
   font-family: "Nunito" !important;
+  scroll-behavior: smooth !important;
 
   h1,
   h2,
@@ -24,6 +26,10 @@ const StyledPage = styled.div`
   span {
     font-family: "Nunito" !important;
   }
+
+  .divider {
+    border-color: ${pallets["darker-wheat"]};
+  }
 `;
 
 export default function Home() {
@@ -33,6 +39,7 @@ export default function Home() {
         <Header />
         <Banner />
         <SobreNos />
+        <Produtos />
       </StyledPage>
     </>
   );
