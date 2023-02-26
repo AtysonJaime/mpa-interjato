@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import pallets from "../assets/json/pallets.json";
 import Banner from "../components/Banner";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Produtos from "../components/Produtos";
 import SobreNos from "../components/Sobre";
@@ -40,6 +41,7 @@ export default function Home() {
         <Banner />
         <SobreNos />
         <Produtos />
+        <Footer />
       </StyledPage>
     </>
   );
