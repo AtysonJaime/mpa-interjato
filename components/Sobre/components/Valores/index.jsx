@@ -21,7 +21,6 @@ const ValoresStyled = styled.div`
 
   .card-valores {
     padding: 0.9375rem;
-    max-width: 16rem;
     min-height: 20rem;
     height: 100%;
     width: 100%;
@@ -43,7 +42,7 @@ const ValoresStyled = styled.div`
 export default function Valores() {
   return (
     <ValoresStyled mb="4">
-      <Card className="card-valores" mb="4">
+      <Card className="card-valores" mb="4" maxW="sm">
         <CardHeader>
           <Avatar
             className="card-icon"
@@ -64,7 +63,7 @@ export default function Valores() {
           </Box>
         </CardBody>
       </Card>
-      <Card className="card-valores" mb="4">
+      <Card className="card-valores" mb="4" maxW="sm">
         <CardHeader>
           <Avatar
             className="card-icon"
@@ -85,7 +84,7 @@ export default function Valores() {
           </Box>
         </CardBody>
       </Card>
-      <Card className="card-valores" mb="4">
+      <Card className="card-valores" mb="4" maxW="sm">
         <CardHeader>
           <Avatar
             className="card-icon"

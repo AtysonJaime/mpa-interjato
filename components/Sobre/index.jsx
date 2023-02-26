@@ -46,7 +46,7 @@ const SobreStyled = styled.section`
       padding: 0 1.25rem;
     }
     @media (max-width: 576px) {
-      padding: 0 0.9375rem;
+      padding: 0;
     }
   }
 `;
@@ -96,7 +96,6 @@ export default function SobreNos() {
           </Stack>
         </Card>
       </Box>
-      <SimpleGrid minChildWidth="8rem" spacing="3rem"></SimpleGrid>
       <Valores />
     </SobreStyled>
   );
