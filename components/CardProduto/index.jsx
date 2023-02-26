@@ -47,6 +47,11 @@ const CardProdutoStyled = styled.div`
 
 export default function CardProduto(props) {
   const dados = props.produto;
+  const formatter = new Intl.NumberFormat("pt-BR", {
+    style: "currency",
+    currency: "BRL",
+  });
+  const moedaBrasileira = formatter.format(parseFloat(dados.preco));
   return (
     <CardProdutoStyled>
       <Link
@@ -64,7 +69,7 @@ export default function CardProduto(props) {
               <Heading size="md">{dados.nome}</Heading>
               <Text>{dados.descricao}</Text>
               <Text className="card-produto__preco" fontSize="2xl">
-                R$ {dados.preco}
+                {moedaBrasileira}
               </Text>
             </Stack>
           </CardBody>

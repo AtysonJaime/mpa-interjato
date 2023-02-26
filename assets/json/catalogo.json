@@ -8,7 +8,7 @@
       "maisVendido": true,
       "nome": "Colheitadeira Multifuncional",
       "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "preco": "120.000,00"
+      "preco": "120000.00"
     },
     {
       "id": "02",
@@ -18,7 +18,7 @@
       "maisVendido": false,
       "nome": "Trator Colheitadeira",
       "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "preco": "65.000,00"
+      "preco": "65000.00"
     },
     {
       "id": "03",
@@ -28,7 +28,7 @@
       "maisVendido": false,
       "nome": "Trator Multifuncional",
       "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "preco": "120.000,00"
+      "preco": "120000.00"
     },
     {
       "id": "04",
@@ -38,7 +38,7 @@
       "maisVendido": false,
       "nome": "Trator para Trabalhos Simples",
       "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "preco": "80.000,00"
+      "preco": "80000.00"
     },
     {
       "id": "05",
@@ -48,7 +48,7 @@
       "maisVendido": true,
       "nome": "Trator Multifuncional",
       "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "preco": "100.000,00"
+      "preco": "100000.00"
     },
     {
       "id": "06",
@@ -58,7 +58,7 @@
       "maisVendido": false,
       "nome": "Colheitadera para Cana-de-Açulcar",
       "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "preco": "120.000,00"
+      "preco": "120000.00"
     },
     {
       "id": "07",
@@ -68,17 +68,17 @@
       "maisVendido": false,
       "nome": "Trator Transportador",
       "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "preco": "90.000,00"
+      "preco": "90000.00"
     },
     {
       "id": "08",
       "foto": "./produtos/08.jpg",
       "link": "/produtos/08",
-      "noCarrinho": false,
+      "noCarrinho": true,
       "maisVendido": false,
       "nome": "Colheitadeira Multifuncional",
       "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "preco": "110.000,00"
+      "preco": "110000.00"
     },
     {
       "id": "09",
@@ -88,7 +88,7 @@
       "maisVendido": false,
       "nome": "Colheitadeira Multifuncional",
       "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "preco": "170.000,00"
+      "preco": "170000.00"
     },
     {
       "id": "10",
@@ -98,7 +98,7 @@
       "maisVendido": false,
       "nome": "Colheitadeira Multifuncional",
       "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "preco": "130.000,00"
+      "preco": "130000.00"
     },
     {
       "id": "11",
@@ -108,7 +108,7 @@
       "maisVendido": false,
       "nome": "Colheitadeira Multifuncional",
       "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "preco": "150.000,00"
+      "preco": "150000.00"
     },
     {
       "id": "12",
@@ -118,7 +118,7 @@
       "maisVendido": false,
       "nome": "Colheitadeira Multifuncional",
       "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "preco": "100.000,00"
+      "preco": "100000.00"
     },
     {
       "id": "13",
@@ -128,7 +128,7 @@
       "maisVendido": true,
       "nome": "Colheitadeira para Pomares",
       "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "preco": "150.000,00"
+      "preco": "150000.00"
     }
   ]
 }
