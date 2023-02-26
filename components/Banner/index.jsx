@@ -56,7 +56,7 @@ const BannerStyled = styled.section`
 
 const DivederStyled = styled.div`
   position: absolute;
-  z-index: 1000;
+  z-index: 2;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -67,8 +67,8 @@ const DivederStyled = styled.div`
   svg {
     position: relative;
     display: block;
-    width: calc(144% + 1.3px);
-    height: 115px;
+    width: calc(144% + 0.0813rem);
+    height: 7.8125rem;
     transform: rotateY(180deg);
   }
 
@@ -79,14 +79,12 @@ const DivederStyled = styled.div`
 
 export default function Banner() {
   return (
-    <>
-      <BannerStyled id="Home">
-        <Box className="banner-sobretudo"></Box>
-        <Center className="banner-info">
-          <Heading as="h1">Mercado de Produtos Agrícolas</Heading>
-          <Text>Os melhores produtos para o seu negócio</Text>
-        </Center>
-      </BannerStyled>
+    <BannerStyled>
+      <Box className="banner-sobretudo"></Box>
+      <Center className="banner-info">
+        <Heading as="h1">Mercado de Produtos Agrícolas</Heading>
+        <Text>Os melhores produtos para o seu negócio</Text>
+      </Center>
       <DivederStyled>
         <svg
           data-name="Layer 1"
@@ -100,6 +98,6 @@ export default function Banner() {
           ></path>
         </svg>
       </DivederStyled>
-    </>
+    </BannerStyled>
   );
 }
