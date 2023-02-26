@@ -1,4 +1,5 @@
 import {
+  Box,
   Card,
   CardBody,
   Heading,
@@ -14,8 +15,10 @@ const CardProdutoStyled = styled.div`
   width: 100%;
   display: flex;
   justify-content: center;
+  box-shadow: none;
   .link-produto {
     text-decoration: none;
+    box-shadow: none;
     &:hover,
     &:focus {
       .card-produto {
@@ -33,6 +36,12 @@ const CardProdutoStyled = styled.div`
     img {
       height: 16rem;
     }
+
+    .card-produto__img {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
   }
 `;
 
@@ -48,7 +57,9 @@ export default function CardProduto(props) {
       >
         <Card className="card-produto" maxW="sm" href="#">
           <CardBody>
-            <Image src={dados.foto} alt={dados.nome} borderRadius="lg" />
+            <Box className="card-produto__img">
+              <Image src={dados.foto} alt={dados.nome} borderRadius="lg" />
+            </Box>
             <Stack mt="6" spacing="3">
               <Heading size="md">{dados.nome}</Heading>
               <Text>{dados.descricao}</Text>
