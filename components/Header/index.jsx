@@ -69,9 +69,9 @@ export default function Header() {
           <Image src="/logo.png"></Image>
         </Link>
       </Box>
-      <Box className="header-navbar">
+      {/* <Box className="header-navbar">
         <Navbar />
-      </Box>
+      </Box> */}
       <Box className="header-carrinho">
         <Menu>
           <MenuButton className="button-carrinho">

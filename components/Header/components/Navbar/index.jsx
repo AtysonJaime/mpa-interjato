@@ -15,7 +15,7 @@ const NavbarStyled = styled.div`
 
   .link-item {
     color: ${pallets.white};
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     border-bottom: 0.1875rem solid transparent;
     line-height: 1.125rem;
     text-align: center;
@@ -29,8 +29,8 @@ const NavbarStyled = styled.div`
     &.active,
     &:hover,
     &:focus {
-      border-bottom: 0.1875rem solid ${pallets.white};
-      height: 1.5625rem;
+      border-bottom: 0.25rem solid ${pallets.white};
+      height: 1.625rem;
     }
   }
 `;
