@@ -33,14 +33,14 @@ const StyledPage = styled.div`
   }
 `;
 
-export default function Home() {
+export default function Home(props) {
   return (
     <>
       <StyledPage>
         <Header />
         <Banner />
         <SobreNos />
-        <Produtos />
+        <Produtos listProdutos={props.listProdutos} />
         <Footer />
       </StyledPage>
     </>
