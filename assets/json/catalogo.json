@@ -1,0 +1,134 @@
+{
+  "produtos": [
+    {
+      "id": "01",
+      "foto": "./produtos/01.jpg",
+      "link": "/produtos/01",
+      "noCarrinho": false,
+      "maisVendido": true,
+      "nome": "Colheitadeira Multifuncional",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "preco": "120.000,00"
+    },
+    {
+      "id": "02",
+      "foto": "./produtos/02.jpg",
+      "link": "/produtos/02",
+      "noCarrinho": false,
+      "maisVendido": false,
+      "nome": "Trator Colheitadeira",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "preco": "65.000,00"
+    },
+    {
+      "id": "03",
+      "foto": "./produtos/03.jpg",
+      "link": "/produtos/03",
+      "noCarrinho": false,
+      "maisVendido": false,
+      "nome": "Trator Multifuncional",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "preco": "120.000,00"
+    },
+    {
+      "id": "04",
+      "foto": "./produtos/04.jpg",
+      "link": "/produtos/04",
+      "noCarrinho": false,
+      "maisVendido": false,
+      "nome": "Trator para Trabalhos Simples",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "preco": "80.000,00"
+    },
+    {
+      "id": "05",
+      "foto": "./produtos/05.jpg",
+      "link": "/produtos/05",
+      "noCarrinho": false,
+      "maisVendido": true,
+      "nome": "Trator Multifuncional",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "preco": "100.000,00"
+    },
+    {
+      "id": "06",
+      "foto": "./produtos/06.jpg",
+      "link": "/produtos/06",
+      "noCarrinho": false,
+      "maisVendido": false,
+      "nome": "Colheitadera para Cana-de-Açulcar",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "preco": "120.000,00"
+    },
+    {
+      "id": "07",
+      "foto": "./produtos/07.jpg",
+      "link": "/produtos/07",
+      "noCarrinho": false,
+      "maisVendido": false,
+      "nome": "Trator Transportador",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "preco": "90.000,00"
+    },
+    {
+      "id": "08",
+      "foto": "./produtos/08.jpg",
+      "link": "/produtos/08",
+      "noCarrinho": false,
+      "maisVendido": false,
+      "nome": "Colheitadeira Multifuncional",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "preco": "110.000,00"
+    },
+    {
+      "id": "09",
+      "foto": "./produtos/09.jpg",
+      "link": "/produtos/09",
+      "noCarrinho": false,
+      "maisVendido": false,
+      "nome": "Colheitadeira Multifuncional",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "preco": "170.000,00"
+    },
+    {
+      "id": "10",
+      "foto": "./produtos/10.jpg",
+      "link": "/produtos/10",
+      "noCarrinho": false,
+      "maisVendido": false,
+      "nome": "Colheitadeira Multifuncional",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "preco": "130.000,00"
+    },
+    {
+      "id": "11",
+      "foto": "./produtos/01.jpg",
+      "link": "/produtos/01",
+      "noCarrinho": false,
+      "maisVendido": false,
+      "nome": "Colheitadeira Multifuncional",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "preco": "150.000,00"
+    },
+    {
+      "id": "12",
+      "foto": "./produtos/12.jpg",
+      "link": "/produtos/12",
+      "noCarrinho": false,
+      "maisVendido": false,
+      "nome": "Colheitadeira Multifuncional",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "preco": "100.000,00"
+    },
+    {
+      "id": "13",
+      "foto": "./produtos/13.jpg",
+      "link": "/produtos/13",
+      "noCarrinho": false,
+      "maisVendido": true,
+      "nome": "Colheitadeira para Pomares",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "preco": "150.000,00"
+    }
+  ]
+}
