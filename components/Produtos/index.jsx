@@ -22,7 +22,6 @@ export default function Produtos() {
         title="Produtos"
         subtitle="Nossos melhores produtos para sua lavoura"
       />
-      <Divider className="divider" mb="4" borderBottomWidth=".24rem"></Divider>
     </ProdutosStyled>
   );
 }

@@ -1,4 +1,4 @@
-import { Heading, Text } from "@chakra-ui/react";
+import { Divider, Heading, Text } from "@chakra-ui/react";
 import styled from "styled-components";
 import pallets from "../../assets/json/pallets.json";
 
@@ -23,10 +23,14 @@ const TitleSectionStyled = styled.div`
 export default function TitleSection(props) {
   return (
     <TitleSectionStyled>
+      <Divider className="divider" mb="5" borderBottomWidth=".24rem"></Divider>
       <Heading className="sobrenos-title" as="h2">
         {props.title}
       </Heading>
-      <Text className="sobrenos-subtitle">{props.subtitle}</Text>
+      <Text className="sobrenos-subtitle" mb="5">
+        {props.subtitle}
+      </Text>
+      <Divider className="divider" mb="5" borderBottomWidth=".24rem"></Divider>
     </TitleSectionStyled>
   );
 }

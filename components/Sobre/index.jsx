@@ -57,7 +57,6 @@ export default function SobreNos() {
         title="Nossa História"
         subtitle="Conheça um pouco mais sobre a gente"
       />
-      <Divider className="divider" mb="4" borderBottomWidth=".24rem"></Divider>
       <Box className="container-card">
         <Card className="text-container" mb="4">
           <Stack divider={<StackDivider />} spacing="4">
@@ -99,7 +98,6 @@ export default function SobreNos() {
       </Box>
       <SimpleGrid minChildWidth="8rem" spacing="3rem"></SimpleGrid>
       <Valores />
-      <Divider className="divider" mb="4" borderBottomWidth=".24rem"></Divider>
     </SobreStyled>
   );
 }
