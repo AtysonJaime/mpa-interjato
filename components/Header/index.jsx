@@ -11,7 +11,7 @@ import {
 import React from "react";
 import styled from "styled-components";
 import pallets from "../../assets/json/pallets.json";
-import Navbar from "./components/Navbar";
+import ItemCarrinho from "./components/ItemCarrinho";
 import ShoppingCart from "./components/ShoppingCart";
 
 const HeaderStyled = styled.section`
@@ -69,9 +69,6 @@ export default function Header() {
           <Image src="/logo.png"></Image>
         </Link>
       </Box>
-      {/* <Box className="header-navbar">
-        <Navbar />
-      </Box> */}
       <Box className="header-carrinho">
         <Menu>
           <MenuButton className="button-carrinho">
