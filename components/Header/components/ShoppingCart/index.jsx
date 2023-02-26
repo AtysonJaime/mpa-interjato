@@ -1,24 +1,18 @@
-import { Avatar, AvatarBadge } from "@chakra-ui/react";
 import { FiShoppingCart } from "react-icons/fi";
+import styled from "styled-components";
 
-export default function ShoppingCart(props) {
+const CartStyled = styled.div`
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+`;
+
+export default function ShoppingCart() {
   return (
-    <Avatar
-      className="avatar-carrinho"
-      icon={<FiShoppingCart fontSize="1.5rem" />}
-    >
-      {props.mostrarQuantidade ? (
-        <AvatarBadge
-          width="1.9rem"
-          height="1.5rem"
-          bg="green.500"
-          fontSize="0.75rem"
-        >
-          {props.quantidadeNoCarrinho > 10 ? "+10" : props.quantidadeNoCarrinho}
-        </AvatarBadge>
-      ) : (
-        false
-      )}
-    </Avatar>
+    <CartStyled className="avatar-carrinho">
+      <FiShoppingCart fontSize="1.2rem" />
+    </CartStyled>
   );
 }

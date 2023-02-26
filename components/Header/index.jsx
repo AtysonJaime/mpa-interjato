@@ -1,11 +1,12 @@
 import {
+  Badge,
   Box,
+  IconButton,
   Image,
   Link,
   Menu,
   MenuButton,
   MenuDivider,
-  MenuItem,
   MenuList,
 } from "@chakra-ui/react";
 import React from "react";
@@ -60,8 +61,14 @@ const HeaderStyled = styled.section`
   }
 `;
 
-export default function Header() {
-  const quantidade = 0;
+export default function Header(props) {
+  /**
+   * Essa variavel pega os produtos da lista que estão no carrinhos
+   */
+  const itensNoCarrinho = props.listProdutos.filter(
+    (produto) => produto.noCarrinho
+  );
+  const quantidadeNoCarrinho = itensNoCarrinho.length;
   return (
     <HeaderStyled id="header">
       <Box className="header-logo">
@@ -71,11 +78,24 @@ export default function Header() {
       </Box>
       <Box className="header-carrinho">
         <Menu>
-          <MenuButton className="button-carrinho">
-            <ShoppingCart
-              quantidadeNoCarrinho={quantidade}
-              mostrarQuantidade={quantidade > 0}
-            />
+          <MenuButton
+            as={IconButton}
+            className="button-carrinho"
+            rounded="full"
+          >
+            <ShoppingCart />
+            {quantidadeNoCarrinho > 0 ? (
+              <Badge
+                className="badge-carrinho"
+                variant="solid"
+                colorScheme="green"
+                rounded="full"
+              >
+                {quantidadeNoCarrinho > 5 ? "+5" : quantidadeNoCarrinho}
+              </Badge>
+            ) : (
+              false
+            )}
           </MenuButton>
           <MenuList className="listagem-produtos">
             <MenuItem>Sou o Menu</MenuItem>
