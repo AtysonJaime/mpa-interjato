@@ -57,8 +57,8 @@ export default function CardProduto(props) {
       <Link
         className="link-produto"
         href={dados.link}
-        title={"Ir para pagina do produto " + dados.nome}
-        alt={"Ir para pagina do produto " + dados.nome}
+        title={"Ir para página do produto " + dados.nome}
+        alt={"Ir para página do produto " + dados.nome}
       >
         <Card className="card-produto" maxW="sm" href="#">
           <CardBody>
