@@ -1,10 +1,18 @@
 import React from "react";
 import Head from "next/head";
 import { ChakraProvider } from "@chakra-ui/react";
-import catalogo from "../assets/json/catalogo.json";
 
 function MyApp({ Component, pageProps }) {
-  const [listProdutos, setListProdutos] = React.useState(catalogo.produtos);
+  const [listProdutos, setListProdutos] = React.useState([]);
+  React.useEffect(() => {
+    const listagemProdutos = localStorage.getItem("listagemProdutos");
+    listagemProdutos === null
+      ? setListProdutos(catalogo.produtos)
+      : listagemProdutos.length === 0
+      ? setListProdutos(catalogo.produtos)
+      : setListProdutos(JSON.parse(listagemProdutos));
+  }, []);
+
   return (
     <>
       <Head>

@@ -137,8 +137,8 @@ export default function DetalhamentoProduto(props) {
     const newProduto = item;
 
     newProduto.noCarrinho = addNoCarrinho;
-    console.log(newProduto);
     newList.push(newProduto);
+    localStorage.setItem("listagemProdutos", JSON.stringify(newList));
     props.setListProdutos(newList);
   };
 

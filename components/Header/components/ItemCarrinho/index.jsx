@@ -32,6 +32,7 @@ export default function ItemCarrinho(props) {
     const newProduto = dados;
     newProduto.noCarrinho = false;
     newList.push(newProduto);
+    localStorage.setItem("listagemProdutos", JSON.stringify(newList));
     props.setListProdutos(newList);
   };
 
