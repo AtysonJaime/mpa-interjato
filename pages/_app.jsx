@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import { ChakraProvider } from "@chakra-ui/react";
+import catalogo from "../assets/json/catalogo.json";
 
 function MyApp({ Component, pageProps }) {
   const [listProdutos, setListProdutos] = React.useState([]);
