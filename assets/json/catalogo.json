@@ -2,133 +2,172 @@
   "produtos": [
     {
       "id": "01",
-      "foto": "./produtos/01.jpg",
+      "foto": "../produtos/01.jpg",
       "link": "/produtos/01",
       "noCarrinho": false,
       "maisVendido": true,
       "nome": "Colheitadeira Multifuncional",
       "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "preco": "120000.00"
+      "preco": "120000.00",
+      "motor": "95",
+      "forca": "70",
+      "potencia": "88"
     },
     {
       "id": "02",
-      "foto": "./produtos/02.jpg",
+      "foto": "../produtos/02.jpg",
       "link": "/produtos/02",
       "noCarrinho": false,
       "maisVendido": false,
       "nome": "Trator Colheitadeira",
       "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "preco": "65000.00"
+      "preco": "65000.00",
+      "motor": "65",
+      "forca": "90",
+      "potencia": "88"
     },
     {
       "id": "03",
-      "foto": "./produtos/03.jpg",
+      "foto": "../produtos/03.jpg",
       "link": "/produtos/03",
       "noCarrinho": false,
       "maisVendido": false,
       "nome": "Trator Multifuncional",
       "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "preco": "120000.00"
+      "preco": "120000.00",
+      "motor": "75",
+      "forca": "70",
+      "potencia": "68"
     },
     {
       "id": "04",
-      "foto": "./produtos/04.jpg",
+      "foto": "../produtos/04.jpg",
       "link": "/produtos/04",
       "noCarrinho": false,
       "maisVendido": false,
       "nome": "Trator para Trabalhos Simples",
       "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "preco": "80000.00"
+      "preco": "80000.00",
+      "motor": "95",
+      "forca": "70",
+      "potencia": "88"
     },
     {
       "id": "05",
-      "foto": "./produtos/05.jpg",
+      "foto": "../produtos/05.jpg",
       "link": "/produtos/05",
       "noCarrinho": false,
       "maisVendido": true,
       "nome": "Trator Multifuncional",
       "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "preco": "100000.00"
+      "preco": "100000.00",
+      "motor": "95",
+      "forca": "89",
+      "potencia": "97"
     },
     {
       "id": "06",
-      "foto": "./produtos/06.jpg",
+      "foto": "../produtos/06.jpg",
       "link": "/produtos/06",
       "noCarrinho": false,
       "maisVendido": false,
       "nome": "Colheitadera para Cana-de-Açulcar",
       "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "preco": "120000.00"
+      "preco": "120000.00",
+      "motor": "75",
+      "forca": "79",
+      "potencia": "82"
     },
     {
       "id": "07",
-      "foto": "./produtos/07.jpg",
+      "foto": "../produtos/07.jpg",
       "link": "/produtos/07",
       "noCarrinho": false,
       "maisVendido": false,
       "nome": "Trator Transportador",
       "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "preco": "90000.00"
+      "preco": "90000.00",
+      "motor": "55",
+      "forca": "50",
+      "potencia": "58"
     },
     {
       "id": "08",
-      "foto": "./produtos/08.jpg",
+      "foto": "../produtos/08.jpg",
       "link": "/produtos/08",
-      "noCarrinho": true,
+      "noCarrinho": false,
       "maisVendido": false,
       "nome": "Colheitadeira Multifuncional",
       "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "preco": "110000.00"
+      "preco": "110000.00",
+      "motor": "85",
+      "forca": "50",
+      "potencia": "98"
     },
     {
       "id": "09",
-      "foto": "./produtos/09.jpg",
+      "foto": "../produtos/09.jpg",
       "link": "/produtos/09",
       "noCarrinho": false,
       "maisVendido": false,
       "nome": "Colheitadeira Multifuncional",
       "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "preco": "170000.00"
+      "preco": "170000.00",
+      "motor": "65",
+      "forca": "50",
+      "potencia": "98"
     },
     {
       "id": "10",
-      "foto": "./produtos/10.jpg",
+      "foto": "../produtos/10.jpg",
       "link": "/produtos/10",
       "noCarrinho": false,
       "maisVendido": false,
       "nome": "Colheitadeira Multifuncional",
       "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "preco": "130000.00"
+      "preco": "130000.00",
+      "motor": "95",
+      "forca": "90",
+      "potencia": "88"
     },
     {
       "id": "11",
-      "foto": "./produtos/01.jpg",
+      "foto": "../produtos/01.jpg",
       "link": "/produtos/01",
       "noCarrinho": false,
       "maisVendido": false,
       "nome": "Colheitadeira Multifuncional",
       "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "preco": "150000.00"
+      "preco": "150000.00",
+      "motor": "95",
+      "forca": "70",
+      "potencia": "88"
     },
     {
       "id": "12",
-      "foto": "./produtos/12.jpg",
+      "foto": "../produtos/12.jpg",
       "link": "/produtos/12",
       "noCarrinho": false,
       "maisVendido": false,
       "nome": "Colheitadeira Multifuncional",
       "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "preco": "100000.00"
+      "preco": "100000.00",
+      "motor": "95",
+      "forca": "40",
+      "potencia": "78"
     },
     {
       "id": "13",
-      "foto": "./produtos/13.jpg",
+      "foto": "../produtos/13.jpg",
       "link": "/produtos/13",
       "noCarrinho": false,
       "maisVendido": true,
       "nome": "Colheitadeira para Pomares",
       "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "preco": "150000.00"
+      "preco": "150000.00",
+      "motor": "95",
+      "forca": "95",
+      "potencia": "95"
     }
   ]
 }
