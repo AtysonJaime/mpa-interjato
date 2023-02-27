@@ -114,7 +114,7 @@ export default function Header(props) {
     <HeaderStyled id="header">
       <Box className="header-logo">
         <Link href="/">
-          <Image src="/logo.png"></Image>
+          <Image loading="lazy" src="/logo.png"></Image>
         </Link>
       </Box>
       <Box className="header-carrinho">

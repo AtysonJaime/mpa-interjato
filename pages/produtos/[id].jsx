@@ -189,6 +189,7 @@ export default function DetalhamentoProduto(props) {
                   variant="outline"
                 >
                   <Image
+                    loading="lazy"
                     objectFit="cover"
                     src={produto.foto}
                     alt={produto.nome}

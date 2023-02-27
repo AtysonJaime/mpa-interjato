@@ -67,7 +67,12 @@ export default function CardProduto(props) {
         <Card className="card-produto" maxW="sm" href="#">
           <CardBody>
             <Box className="card-produto__img">
-              <Image src={dados.foto} alt={dados.nome} borderRadius="lg" />
+              <Image
+                loading="lazy"
+                src={dados.foto}
+                alt={dados.nome}
+                borderRadius="lg"
+              />
             </Box>
             <Stack mt="6" spacing="3">
               <Heading size="md">{dados.nome}</Heading>
