@@ -18,6 +18,7 @@ Esse projeto utiliza-se das seguintes tecnologias:
 - [Styled Components](https://styled-components.com)
 - [Versel](https://vercel.com)
 - [Chakra](https://chakra-ui.com)
+- [React Icons](https://react-icons.github.io/react-icons)
 
 ---
 
