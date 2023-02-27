@@ -11,14 +11,20 @@ import {
 import { AiOutlineDelete } from "react-icons/ai";
 
 export default function ItemCarrinho(props) {
-  const dados = props.produto;
-
+  /**
+   * Função para formatar o valor do produto para moeda brasileira
+   */
   const formatter = new Intl.NumberFormat("pt-BR", {
     style: "currency",
     currency: "BRL",
   });
+
+  const dados = props.produto;
   const moedaBrasileira = formatter.format(parseFloat(dados.preco));
 
+  /**
+   * Função para remover o produto do carrinho
+   */
   const removeItemCarrinho = () => {
     const newList = props.listProdutos.filter(
       (produto) => produto.id !== dados.id

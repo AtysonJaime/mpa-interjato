@@ -46,11 +46,15 @@ const CardProdutoStyled = styled.div`
 `;
 
 export default function CardProduto(props) {
-  const dados = props.produto;
+  /**
+   * Função para formatar o valor do produto para moeda brasileira
+   */
   const formatter = new Intl.NumberFormat("pt-BR", {
     style: "currency",
     currency: "BRL",
   });
+
+  const dados = props.produto;
   const moedaBrasileira = formatter.format(parseFloat(dados.preco));
   return (
     <CardProdutoStyled>

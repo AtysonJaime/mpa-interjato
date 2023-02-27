@@ -102,6 +102,7 @@ const ProdutosStyled = styled.div`
 
 export default function ProdutoHome(props) {
   const [valorBusca, setValorBusca] = React.useState("");
+
   return (
     <ProdutosStyled>
       <Header

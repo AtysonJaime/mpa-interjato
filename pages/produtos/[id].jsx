@@ -112,15 +112,24 @@ const DetalhamentoProdutoStyled = styled.div`
     }
   }
 `;
+
 export default function DetalhamentoProduto(props) {
   const router = useRouter();
   const { id } = router.query;
 
+  /**
+   * Função para formatar o valor do produto para moeda brasileira
+   */
   const formatter = new Intl.NumberFormat("pt-BR", {
     style: "currency",
     currency: "BRL",
   });
 
+  /**
+   * Função para adicionar ou remover o produto do carrinho.
+   * @param {Object} item Objeto contendo as keys e valores do produto.
+   * @param {Boolean} addNoCarrinho Condicional para ditar se o item será removido ou adicionado no carrinho.
+   */
   const actionCarrinho = (item, addNoCarrinho) => {
     const newList = props.listProdutos.filter(
       (produto) => produto.id !== item.id

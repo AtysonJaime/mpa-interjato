@@ -92,15 +92,24 @@ export default function Header(props) {
     (produto) => produto.noCarrinho
   );
   const quantidadeNoCarrinho = itensNoCarrinho.length;
+
+  /**
+   * Essa variavel guarda o preço total que o usuário ira pagar no final.
+   */
   let valorTotal = 0;
   itensNoCarrinho.forEach((produto) => {
     valorTotal = valorTotal + parseFloat(produto.preco);
   });
+
+  /**
+   * Função para formatar o valor do produto para moeda brasileira
+   */
   const formatter = new Intl.NumberFormat("pt-BR", {
     style: "currency",
     currency: "BRL",
   });
   const moedaBrasileira = formatter.format(valorTotal);
+
   return (
     <HeaderStyled id="header">
       <Box className="header-logo">
