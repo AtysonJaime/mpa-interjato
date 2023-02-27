@@ -19,6 +19,7 @@ Esse projeto utiliza-se das seguintes tecnologias:
 - [Versel](https://vercel.com)
 - [Chakra](https://chakra-ui.com)
 - [React Icons](https://react-icons.github.io/react-icons)
+- [Cypress](https://docs.cypress.io/guides/overview/why-cypress)
 
 ---
 
